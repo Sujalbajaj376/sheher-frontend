@@ -6,7 +6,7 @@ import axios from 'axios';
 import { toast } from 'react-hot-toast';
 
 // Define the API base URL
-const base = 'http://localhost:6001';
+const base = 'https://sheher-backend.onrender.com';
 
 const AdminLogin = () => {
   const [formData, setFormData] = useState({

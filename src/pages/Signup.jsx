@@ -4,7 +4,7 @@ import { FaUser, FaLock, FaArrowLeft, FaEnvelope, FaCity } from 'react-icons/fa'
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import { toast } from 'react-hot-toast';
-const base = "http://localhost:6001";
+const base = "https://sheher-backend.onrender.com";
 
 const Signup = () => {
   const [formData, setFormData] = useState({
