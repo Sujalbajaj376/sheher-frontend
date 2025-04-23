@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Configure axios defaults
-axios.defaults.baseURL = 'http://localhost:6001';
+axios.defaults.baseURL = 'https://sheher-backend.onrender.com';
 
 // Add request interceptor for handling auth tokens
 axios.interceptors.request.use(

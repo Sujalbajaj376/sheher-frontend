@@ -7,7 +7,7 @@ import { toast } from 'react-hot-toast';
 
 // Set default axios base URL if not already set
 if (!axios.defaults.baseURL) {
-  axios.defaults.baseURL = 'http://localhost:6001';
+  axios.defaults.baseURL = 'https://sheher-backend.onrender.com';
 }
 
 // Mock tenders data
